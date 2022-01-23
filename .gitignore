@@ -1,3 +1,45 @@
+# Datasets
+code/model_zoo/pytorch_ipynb/AFAD-Lite/
+code/model_zoo/pytorch_ipynb/tarball-lite/
+code/model_zoo/pytorch_ipynb/tarball
+code/model_zoo/pytorch_ipynb/test_set*
+code/model_zoo/pytorch_ipynb/train_set*
+code/model_zoo/pytorch_ipynb/AFAD-Full*
+celeba_gender_attr_test.txt
+celeba_gender_attr_train.txt
+iris.h5
+test_32x32.mat
+train_32x32.mat
+code/model_zoo/pytorch_ipynb/svhn_cropped/
+list_attr_celeba.txt 
+list_eval_partition.txt
+img_align_celeba
+quickdraw-*
+*.csv
+*.zip
+*.npz
+*.npy
+*ubyte.gz
+*archive.ics.uci.edu*
+code/model_zoo/cifar-10
+code/model_zoo/pytorch_ipynb/data
+
+# Binary PyTorch models
+*.pt
+
+# Temporary OS files
+.DS_Store
+
+# TensorFlow Checkpoint files
+checkpoint
+code/*/*.data-?????-of-?????
+code/*/*.index
+code/*/*.meta
+code/model_zoo/tensorflow_ipynb/*.data-?????-of-?????
+code/model_zoo/tensorflow_ipynb/*.index
+code/model_zoo/tensorflow_ipynb/*.meta
+code/model_zoo/tensorflow_ipynb/cifar-10/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -8,6 +50,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -19,13 +62,9 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -40,16 +79,13 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.nox/
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
-*.cover
-*.py,cover
+*,cover
 .hypothesis/
-.pytest_cache/
 
 # Translations
 *.mo
@@ -58,8 +94,6 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
-db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -74,56 +108,27 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
+# IPython Notebook
 .ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
 
 # pyenv
 .python-version
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
+# celery beat schedule file
 celerybeat-schedule
-celerybeat.pid
 
-# SageMath parsed files
-*.sage.py
-
-# Environments
+# dotenv
 .env
-.venv
-env/
+
+# virtualenv
 venv/
 ENV/
-env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject
-.spyproject
 
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
+# Datasets
+MNIST*
